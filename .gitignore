@@ -1,0 +1,64 @@
+# =========================
+# Virtual Environment
+# =========================
+venv/
+env/
+ENV/
+
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# =========================
+# IDE / Editors
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# =========================
+# Jupyter Notebook
+# =========================
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# =========================
+# DVC (IMPORTANT)
+# =========================
+.dvc/config.local
+.dvc/tmp/
+
+# =========================
+# OS Files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Environment Variables
+# =========================
+.env
+.env.local
+
+# =========================
+# Models (optional - safe to ignore)
+# =========================
+*.pkl
+*.joblib
+*.h5
+
+# =========================
+# IMPORTANT NOTE
+# =========================
+# DO NOT IGNORE data/*.csv
+# DVC must manage dataset tracking
