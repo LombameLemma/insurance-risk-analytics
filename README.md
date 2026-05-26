@@ -130,7 +130,7 @@ This project is licensed under the MIT License.
 
 ## Author
 
-**Elu Di** - Insurance Analytics Project
+**Lombame Lemma** - Insurance Analytics Project
 
 ## Date
 
